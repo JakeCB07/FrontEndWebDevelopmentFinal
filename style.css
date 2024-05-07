@@ -1,0 +1,296 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: darkkhaki
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.banner {
+    color: white;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('./Photos/forrest.jpg');
+    background-position:center top;
+    height: 125px;
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.banner > h1 {
+    font-size: 4rem;
+    position: relative;
+    top: 10%;
+    left: 2.5%;
+    margin-bottom: 0%;
+}
+
+.slogan {
+    position: absolute;
+    margin-left: 2.5%;
+}
+
+nav {
+    display: flex;
+    background-color: darkblue;
+    justify-content: space-around;
+    align-items: center;
+    height: 2rem;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 0.5% 2% 0.5% 2%;
+}
+
+nav > a:hover {
+    background-color: white;
+    color: darkblue;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 225px;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.centerPhoto {
+    width: 33%;
+    display: block;
+    position:relative;
+    margin: 2.5% auto 0% auto;
+}
+
+.captionCenter {
+    font-style: italic;
+    font-size: smaller;
+    text-align: center;
+}
+
+.figurePhoto {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+header h2, header > p, main > h3, main > p {
+    margin-left: 5%;
+    margin-right: 5%; 
+}
+
+.homePage {
+    margin-right: 20%;
+    margin-left: 5%;
+}
+
+.cityPage {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15%;
+}
+
+section {
+    margin-bottom: 25%;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+#formContainer {
+    color: white;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: darkblue;
+    width: 20%;
+    height: 66%;
+    border-radius: 30px;
+}
+
+#formContainer div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+#newsLetterInfo {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-style: oblique;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+form div {
+    margin-top: 10px;
+}
+
+form div label {
+    font-size: small;
+}
+
+input[type='submit'] {
+    color: darkblue;
+    margin: 15% 20% auto 20%;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+}
+
+input[type='submit']:hover {
+    color: white;
+    background-color: darkblue;
+    border: 4px solid white;
+}
+
+#washingtonFacts {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#washingtonFacts div {
+    background-color:darkred;
+}
+
+#washingtonFacts div h3{
+    text-align: center;
+}
+
+#washingtonFacts div ul img{
+    width: 200px;
+    height: 200px;
+    border:3px solid white;
+    margin-bottom: 10%;
+}
+
+#factsList {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#factsList div {
+    width: 250px;
+    height: 300px;
+}
+
+#pugetSound {
+    width: 50%;
+}
+
+.pushDown {
+    margin-top: 25%;
+}
+
+table {
+    margin-top: 5%;
+}
+
+.tableHead {
+    text-align: center;
+}
+
+tr {
+    background-color: azure;
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background-color:cornflowerblue
+}
+
+.ethnicityName {
+    text-align: left;
+}
+
+#shoppingContainer {
+    background-color:darkred;
+    color: white;
+    text-align: center;
+}
+
+#shoppingContainer  div{
+    display: flex;
+    justify-content: center;
+}
+
+#shoppingContainer div img{
+    width: 300px;
+    height: 200px;
+    border:3px solid white;
+}
+
+#yakimaAg {
+    position: absolute;
+    margin-top: 10%;
+    color: white;
+    text-align: center;
+    background-color: darkred;
+}
+#yakimaAg div {
+    display: grid;
+    grid-template-columns: 400px auto;
+    grid-template-rows: auto auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5%;
+    gap: 5%;
+}
+
+#yakimaAg  img {
+    width: 400px;
+}
+
+ol {
+    margin: 2.5% 25% 2.5% 25%;
+}
+
+ol li {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#spokaneEvents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkred;
+    text-align: center;
+    color: white;
+    margin-top: -5%;
+    padding: 5%;
+}
+
+#spokaneEvents img {
+    width: 300px;
+    height: 200px;
+}
